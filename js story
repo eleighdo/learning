@@ -1,0 +1,17 @@
+var adjective = prompt("Tell me an adjective.");
+var verb = prompt("Now give me a verb.");
+var noun = prompt("Finally, what noun do you want to use?");
+var noun2 = prompt ("Just kidding, we need another noun, please.");
+var noun3 = prompt ("One more noun this time plural.");
+var verb2 = prompt("Lastly \(for real\), choose a verb ending in \"ing\".");
+alert("Thanks! Hit okay to read your story.")
+
+var story = "<h3>Once upon a time, a " 
++ adjective 
+    story += " creature decided to " + verb
+    story += ". But first, she needed a snack, so she grabbed a " + noun + " from the cupboard. Satisfied, she went to the "
+    story += noun2 + " and slept soundly, dreaming of " + noun3 + " " + verb2 + ". "
+    story += "<i>Fin</i></h3>";
+
+document.write(story)
+console.log(adjective, verb, noun, noun2, noun3, verb2)
